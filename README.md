@@ -8,6 +8,6 @@ This repository contains the R code for the Paraphelidium transcriptome paper (T
 
 ## Required libraries
 
-* Base *R*
+* Base *R*, includinng *stats* library
 * *gplots*
 * *ape*
