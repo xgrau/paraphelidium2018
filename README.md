@@ -20,7 +20,7 @@ This script can be manually edit to use various matrices as input. They should h
 * Each row is a functional annotation group, e.g. clusters of orthologous groups (COG)
 * The matrix will contain the presence/absence pattern of a given COG (encoded as 1/0).
 
-The script can also be used to convert count matrices (e.g. number of genes with a certain COG) into presence/abscence matrices (1/0).
+***Beware***: count matrices (e.g. number of genes with a certain COG in a certain species) must be converted into presence/abscence matrices (1/0).
 
 ## Output
 
