@@ -14,8 +14,8 @@ library(viridis)
 
 #### Input ####
 
-input   = c("inputmatrix.txt") # assumes a wide-style matrix with headers, rows=genes/OGs & cols=sps 
-outcode = "out"                # code for output (final format: inputname_outcode_XXXX)
+input   = c("primary_transposed.txt") # assumes a wide-style matrix with headers, rows=genes/OGs & cols=sps 
+outcode = "out"                       # code for output (final format: inputname_outcode_XXXX)
 
 # Colors
 hop     = colorRampPalette(interpolate="l",c("white","deepskyblue","dodgerblue3","dodgerblue4"))
