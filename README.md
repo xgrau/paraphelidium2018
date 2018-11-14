@@ -12,6 +12,8 @@ In the paper, we used this script to analyse the profiles of clusters of ortholo
 * Base *R*, includinng *stats* library
 * *gplots*, for heatmap plots
 * *ape*, for PCoA  analysis
+* *viridis* color palette
+* *reshape2* and *tidyr* 
 
 ## Input
 
