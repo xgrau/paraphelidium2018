@@ -1,8 +1,11 @@
-##################################################
-#####  
-##### Xavier Grau-Bové / Guifré Torruella
-##### xavier.graubove@gmail.com
+###############################################
+# Scripts from Paraphelidium transcriptome paper 
+# (Torruella et al. Nat Comm Biol 2018)
+# Xavier Grau-Bové (xavier.graubove@gmail.com)
+# https://github.com/xgrau/paraphelidium2018
+###############################################
 
+# libraries
 library(reshape2)
 library(tidyr)
 library(ape)
@@ -11,8 +14,8 @@ library(viridis)
 
 #### Input ####
 
-input   = c("output_primary.txt") # assumes a wide-style matrix with headers, rows=genes/OGs & cols=sps 
-outcode = "1oct17"                # code for output (final format: inputname_outcode_XXXX)
+input   = c("inputmatrix.txt") # assumes a wide-style matrix with headers, rows=genes/OGs & cols=sps 
+outcode = "out"                # code for output (final format: inputname_outcode_XXXX)
 
 # Colors
 hop     = colorRampPalette(interpolate="l",c("white","deepskyblue","dodgerblue3","dodgerblue4"))
