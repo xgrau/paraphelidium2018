@@ -5,7 +5,7 @@ This repository contains scripts for the *Paraphelidium tribonemae* transcriptom
 * Principal Coordinate Analysis
 * Clustering of species (based on Pearson's correlation coefficient and Ward clustering) 
 
-In the paper, we used this script to analyse the profiles of clusters of orthologous groups (COGs) linked to primary metabolism (COGs: codes: C, E, F, G, H, I, P and Q), and KEGG orthologs. For a detailed overview of the functional annotations of genes with COG and KEGG terms, see Methods in the paper [link].
+In the paper, we used this script to analyse the profiles of clusters of orthologous groups (COGs) linked to primary metabolism (COGs: codes: C, E, F, G, H, I, P and Q), and KEGG orthologs (KOGs). For a detailed overview of the functional annotations of genes with COG and KEGG terms, see Methods in the paper [link].
 
 ## Required libraries
 
@@ -17,12 +17,12 @@ In the paper, we used this script to analyse the profiles of clusters of ortholo
 
 ## Input
 
-This script can be manually edit to use various matrices as input. They should have the following format:
+This script can be manually edited to use various matrices as input. They should have the following format:
 * Each column is a species
-* Each row is a functional annotation group, e.g. clusters of orthologous groups (COG)
-* The matrix will contain the presence/absence pattern of a given COG (encoded as 1/0).
+* Each row is a functional annotation group, e.g. clusters of orthologous groups (KOG)
+* The matrix will can contain either i) counts of a certain gene family (COG, KOG, etc.) in each species; or ii) presence/absence profile (encoded as 1/0). If counts are used, the script will automatically convert them to 0/1
 
-***Beware***: count matrices (e.g. number of genes with a certain COG in a certain species) must be converted into presence/abscence matrices (1/0).
+The input file provided, ``primary_transposed.txt``, contains counts of KOGs across 41 eukaryotes (as in Figure 3 from the manuscript).
 
 ## Output
 
