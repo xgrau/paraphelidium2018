@@ -26,4 +26,4 @@ The input file provided, ``primary_transposed.txt``, contains counts of KOGs acr
 
 ## Output
 
-This code can be used to produce figures analogous to Figure 3 in the paper [link].
+This code can be used to produce figures analogous to Figure 3 in the paper [link](https://www.nature.com/articles/s42003-018-0235-z).
