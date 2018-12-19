@@ -1,6 +1,6 @@
-# Code for the Paraphelidium transcriptome (Torruella et al., Nat Comm Biol 2018)
+# Code for the Paraphelidium transcriptome (Torruella et al., Communications Biology 2018)
 
-This repository contains scripts for the *Paraphelidium tribonemae* transcriptome paper ([Torruella et al., Nat Comm Biol 2018](https://www.nature.com/articles/s42003-018-0235-z)). It contains the basic R code to analyse the profile of presence/absence of genes with certain functional annotations across various eukaryotic genomes, using the following methods:
+This repository contains scripts for the *Paraphelidium tribonemae* transcriptome paper ([Torruella et al., Communications Biology 2018](https://www.nature.com/articles/s42003-018-0235-z)). It contains the basic R code to analyse the profile of presence/absence of genes with certain functional annotations across various eukaryotic genomes, using the following methods:
 
 * Principal Coordinate Analysis
 * Clustering of species (based on Pearson's correlation coefficient and Ward clustering) 
@@ -30,4 +30,4 @@ This code can be used to produce figures analogous to [Figure 3 in the paper](ht
 
 ## Cite this
 
-Torruella G, Grau-Bové X, Moreira D, Karpov SA, Burns JA, Sebé-Pedrós A, Völcker E, López-García P. 2018. Global transcriptome analysis of the aphelid Paraphelidium tribonemae supports the phagotrophic origin of fungi. Commun Biol 1: 231. http://www.nature.com/articles/s42003-018-0235-z.
+Torruella G, Grau-Bové X, Moreira D, Karpov SA, Burns JA, Sebé-Pedrós A, Völcker E, López-García P. 2018. Global transcriptome analysis of the aphelid Paraphelidium tribonemae supports the phagotrophic origin of fungi. Communications Biology 1: 231. http://www.nature.com/articles/s42003-018-0235-z.
