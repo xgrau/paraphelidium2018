@@ -1,11 +1,11 @@
 # Code for the Paraphelidium transcriptome (Torruella et al., Nat Comm Biol 2018)
 
-This repository contains scripts for the *Paraphelidium tribonemae* transcriptome paper (Torruella et al., Nat Comm Biol 2018). It contains the basic R code to analyse the profile of presence/absence of genes with certain functional annotations across various eukaryotic genomes, using the following methods:
+This repository contains scripts for the *Paraphelidium tribonemae* transcriptome paper ([Torruella et al., Nat Comm Biol 2018](https://www.nature.com/articles/s42003-018-0235-z)). It contains the basic R code to analyse the profile of presence/absence of genes with certain functional annotations across various eukaryotic genomes, using the following methods:
 
 * Principal Coordinate Analysis
 * Clustering of species (based on Pearson's correlation coefficient and Ward clustering) 
 
-In the paper, we used this script to analyse the profiles of clusters of orthologous groups (COGs) linked to primary metabolism (COGs: codes: C, E, F, G, H, I, P and Q), and KEGG orthologs (KOGs). For a detailed overview of the functional annotations of genes with COG and KEGG terms, see Methods in the paper [link].
+In the paper, we used this script to analyse the profiles of clusters of orthologous groups (COGs) linked to primary metabolism (COGs: codes: C, E, F, G, H, I, P and Q), and KEGG orthologs (KOGs). For a detailed overview of the functional annotations of genes with COG and KEGG terms, see [Methods in the paper](https://www.nature.com/articles/s42003-018-0235-z#Sec8).
 
 ## Required libraries
 
@@ -26,4 +26,8 @@ The input file provided, ``primary_transposed.txt``, contains counts of KOGs acr
 
 ## Output
 
-This code can be used to produce figures analogous to Figure 3 in the paper [link](https://www.nature.com/articles/s42003-018-0235-z).
+This code can be used to produce figures analogous to [Figure 3 in the paper](https://www.nature.com/articles/s42003-018-0235-z#Fig3).
+
+## Cite this
+
+Torruella G, Grau-Bové X, Moreira D, Karpov SA, Burns JA, Sebé-Pedrós A, Völcker E, López-García P. 2018. Global transcriptome analysis of the aphelid Paraphelidium tribonemae supports the phagotrophic origin of fungi. Commun Biol 1: 231. http://www.nature.com/articles/s42003-018-0235-z.
