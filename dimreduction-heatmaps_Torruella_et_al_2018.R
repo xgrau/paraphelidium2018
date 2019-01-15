@@ -25,10 +25,6 @@ hopviri = viridis(51,option = "A",begin=0.25,end=0.99,direction = -1)
 mi = read.table(input,header=T,sep="\t")
 
 # Data formatting
-# Set gene names as row names and remove gene names column
-rownames(mi) = as.vector(mi[,1])
-mi = mi[,-1]
-
 mi[is.na(mi)] = 0                     # change missing to 0 (tweak if appropriate)
 mi = as.matrix(mi)                    # format matrix
 mi = mi[rowSums(mi)>0,colSums(mi)>0]  # retain genes that are present in >=1 sps; and sps that have >=1 genes
@@ -82,7 +78,7 @@ pio12$grup = ifelse(pio12$sp %in% c("Amp_sp","Ant_lo","Enc_cu","Enc_in","Ent_bi"
                                           ifelse(pio12$sp %in% c("The_tr"),"Apusomonad",
                                                  ifelse(pio12$sp %in% c("Aca_ca","Dic_pu","Pol_pa","Ent_hi"),"Amoebozoa",
                                                         ifelse(pio12$sp %in% c("Tox_go","Pla_fa","Try_br","Lei_ma","Nae_gr","Phy_in"),"Other","Uncl")))))))
-dpio12$grup=as.factor(pio12$grup)
+pio12$grup=as.factor(pio12$grup)
 
 # PCoA (components 1&2)
 plot(x=pio12$Axis.1,y=pio12$Axis.2,col=pio12$grup,main="PCoA",
