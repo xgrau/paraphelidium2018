@@ -1,4 +1,4 @@
-# Code for the Paraphelidium transcriptome (Torruella et al., Communications Biology 2018)
+# Paraphelidium transcriptome paper (Torruella et al, Communications Biology 2018)
 
 This repository contains scripts for the *Paraphelidium tribonemae* transcriptome paper ([Torruella et al., Communications Biology 2018](https://www.nature.com/articles/s42003-018-0235-z)). It contains the basic R code to analyse the profile of presence/absence of genes with certain functional annotations across various eukaryotic genomes, using the following methods:
 
